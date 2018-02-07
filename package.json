@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Ryanc1995/homework-1#readme",
   "dependencies": {
     "express": "^4.16.2"
-  }
+  },
+  "engines": {
+    "node": "9.5.0"
+}
 }
