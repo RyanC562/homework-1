@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Question 1</h1>
+
+<p>Please input a number between 6 and 12:</p>
+
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="q1"></p>
+
+<script>
+
+function myFunction() {
+    x = document.getElementById("numb").value;
+
+if (isNaN(x) || x < 6 || x > 12) {
+document.getElementById("q1").innerHTML = "<span style='color: red;'>The valid input is a number between 6 and 12, please refresh your page to start again</span>";
+} else {
+document.getElementById("q1").innerHTML = "Input is Valid";
+}
+}
+</script>
+
+</body>
+</html>
